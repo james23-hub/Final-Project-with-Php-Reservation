@@ -1,0 +1,148 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background-color:#ffd2a6;
+}
+.logo-container{
+    height:100px;
+    width: 100%;
+    background-color: #1f1c10;
+    position:fixed;
+    opacity:0.9;
+}
+.logo-image{
+    margin-top: 10px;
+    margin-left:44%;
+    width:12%;
+}
+.option-position{
+    position:absolute;
+    width: 100%;
+}
+.option-container{
+    position: fixed;
+    margin-top:100px;
+    height:40px;
+    width: 100%;
+    background-color: #fab70c;
+    opacity: 0.9;
+}
+.option-bar{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.options {  
+    color:#fff;
+    font-size:15px;
+    font-family:'Bahnschrift';
+    margin:10px;
+    letter-spacing:2px;
+    text-decoration: none;
+    border:2px 2px solid black
+
+}
+.options a{
+    text-decoration: none;
+    transition: 0.3s;
+    color:black;
+}
+.options a:hover{
+    color: white;  
+    text-decoration: none;
+    filter:drop-shadow(1px 1px 1px orangered);
+}
+.reservation-container{
+    height:1000px;
+    background-color:#edddb4;
+}
+.reservation-layout{
+    float:right;
+    height:600px;
+    width: 100%;
+}
+.reservation-background{
+    margin:150px 0 0 260px;
+    background-color:white;
+    height:750px;
+    width:890px;
+}
+.reservation-header{
+    height:150px;
+    width: 100%;
+    border-bottom:1px solid gainsboro;
+    box-shadow:0 2px gainsboro ;
+}
+.reservation {
+    padding-top: 20px;
+    font-size: 30px;
+    margin:20px;
+    letter-spacing: 1px;
+}
+.fill-out-text{
+    letter-spacing: 1px;
+    margin:20px;
+}
+.fullname{
+    font-size: 12px;
+    height:30px;
+    width:30%;
+    color:lightslategrey;
+
+}
+.fn-text{
+    float:left;
+}
+.ln-text{
+    float:right;
+}
+form{
+    margin:10px 0 0 20px;
+}
+.form-details{
+    margin:30px 0 5px 50px;
+}
+input{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin:0px 0 20px 0;
+}
+#submit{
+    margin: 10px 0 0 150px;
+    height: 30px;
+    width:160px;
+}
+
+.footer-container{
+    text-align: center;
+    position: relative;
+    color:white;
+    background-color:#1f1c10;
+    height:200px;
+    width:100%;
+}
+.footer-text{
+  letter-spacing: 3px;
+  position:absolute;
+  font-size:15px;
+  top:50%;
+  left:30%;
+
+}
+.footer-copyright{
+    letter-spacing:2px;
+    position:absolute;
+    font-size:10px;
+    bottom:0;
+    left:33%;
+}
+.logo2{
+  width: 15%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top:10%;
+  left:5%;
+}

@@ -1,0 +1,186 @@
+.box {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #999;
+	padding: 5px;
+}
+
+.box img {
+	height: 300px;
+	width: 300px;
+}
+
+.div1 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.div2 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	height: 120vh;
+
+
+}
+
+.div3 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	height: 80vh;
+
+}
+
+.div4 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	height: 120vh;
+
+}
+
+.div5 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	height: 120vh;
+
+}
+/* css ni pabs */
+body {
+	background-color:#ffd2a6;
+}
+
+.header-container{
+    height: 600px;
+    width: 100%;    
+    position: relative;
+}
+
+.images{
+	height: 70vh;
+    width: 100%;
+    filter: brightness(60%) contrast(90%);
+    position:absolute;
+}
+
+.logo{
+    width:60%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:10%;
+    left:20%;
+
+}
+
+.text{
+    position: absolute;
+    top:50%;
+    left:17%;
+    height:100%;
+    
+}
+.tagline{
+    font-family:'Bills Mafia';
+    font-size:85px;
+    color:#f7bc19;
+    letter-spacing: 8px;
+}
+
+.footer-container{
+      text-align: center;
+      position: relative;
+      color:white;
+      background-color:#1f1c10;
+      height:200px;
+      width:100%;
+  }
+  .footer-text{
+    letter-spacing: 3px;
+    position:absolute;
+    font-size:15px;
+    top:50%;
+    left:30%;
+
+  }
+  .footer-copyright{
+      letter-spacing:2px;
+      position:absolute;
+      font-size:10px;
+      bottom:0;
+      left:33%;
+  }
+  .logo2{
+    width: 15%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:10%;
+    left:5%;
+
+  }
+ /* ako na ni nga css dre */
+ h2 {
+ 	background-color: #a6280f;
+ 	text-align: center;
+ 	height: 10vh;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	color: #f1f1f1;
+ }
+
+ .submit {
+ 	display: flex;
+ 	flex-flow: row wrap;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+
+ .submit input {
+ 	font-size: 30px;
+ 	margin: 20px;
+ 	padding: 20px;
+ 	background-color: #ffd2a6;
+ 	color: #f1f1f1;
+ 	border-radius: 20px;
+ }
+
+.submit input:hover {
+	color:#ffd2a6;
+ 	background-color: #f1f1f1;
+ 	box-shadow: 5px 5px 5px grey;
+}
+
+.navigator{
+    position:absolute;
+    top:75%;
+    left:17%;
+    display:flex;
+}
+
+.nav{
+margin:0 60px 0 30px;
+letter-spacing:2px;
+font-size: 25px;
+font-weight: 900;
+font-family:'Bahnschrift';
+}
+.nav a{
+    color:white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.nav a:hover {
+    color:orangered;
+    text-decoration: none;
+}
